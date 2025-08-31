@@ -6,6 +6,6 @@
 
 int main() {
     int a = 7, b = 5;
-    std::cout << "sum(" << a << "+" << b << ")="
+    std::cout << "Result: sum(" << a << "+" << b << ")="
             << math_utils::add(a, b) << std::endl;
 }
