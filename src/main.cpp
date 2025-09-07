@@ -12,4 +12,6 @@ int main() {
     std::cout << "Result: sum(" << c << "+" << d << ")="
             << math_utils::add(d, c) << std::endl;
     std::cout << "this is the change made for the local Branch" <<std::endl;
+    std::cout << "Result: subtract(" << c << "-" << d << ")="
+            << c-d << std::endl;
 }
