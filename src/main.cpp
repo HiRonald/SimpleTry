@@ -8,4 +8,7 @@ int main() {
     int a = 7, b = 5;
     std::cout << "Result: sum(" << a << "+" << b << ")="
             << math_utils::add(a, b) << std::endl;
+    int c = 72, d = 5;
+    std::cout << "Result: sum(" << c << "+" << d << ")="
+            << math_utils::add(d, c) << std::endl;
 }
